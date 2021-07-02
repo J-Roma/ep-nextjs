@@ -1,9 +1,12 @@
+import React from 'react';
 import Swiper from 'react-id-swiper';
 import styles from '../styles/objetivos/Objetive.module.css'
 
 const Slides = () => {
+    const [screen, setscreen] = React.useState(1)
+
     const params = {
-        slidesPerView: 2,
+        slidesPerView: screen,
         spaceBetween: 30,
         pagination: {
             el: '.swiper-pagination',
@@ -34,3 +37,7 @@ const Slides = () => {
 }
 
 export default Slides
+
+export function getServerSideProps() {
+    console.log(window.screen.width);
+}

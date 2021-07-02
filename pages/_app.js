@@ -17,12 +17,13 @@ function MyApp({ Component, pageProps }) {
         <link rel="icon" href="/favicon.ico" />
         <script src="https://unpkg.com/react-id-swiper@2.3.1/lib/react-id-swiper.js"></script>
         <script src="https://unpkg.com/react-id-swiper@2.3.1/lib/react-id-swiper.min.js"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
       </Head>
-        <Component {...pageProps} />
+      <Component {...pageProps} />
     </>
-      )
+  )
 }
 
-      export default MyApp
+export default MyApp

@@ -48,6 +48,10 @@
         width: 15px;
     }
 
+    .slide {
+        max-width: 250px;
+    }
+    
     .bg {
       background: #eeeeee;
     }
