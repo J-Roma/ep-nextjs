@@ -7,21 +7,20 @@
   position: relative;
 }
 
-/* .container {
-    position: relative;
-    
-} */
+.slide {
+    max-width: 400px;
+}
 
 .position {
     position: absolute;
-    right: 23%;
+    right: 21%;
     top: 19%;
 }
 
 .content {
     position: absolute;
     width: 600px;
-    right: 23%;
+    right: 21%;
     top: 41vh;
 }
 
@@ -40,9 +39,45 @@
     font-size: 1.4vw;
     color: #A239EA;
 }
+.img {
+    width: 28px;
+}
 
 @media (max-width: 600px) {
+    .img {
+        width: 15px;
+    }
+
     .bg {
       background: #eeeeee;
+    }
+    .position {
+        position: absolute;
+        width: 300px;
+        right: 0%;
+        top: 5%;
+    }
+    
+    .content {
+        position: absolute;
+        width: 330px;
+        right: 0;
+        top: 25vh;
+    }
+    
+    
+    .title {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 900;
+        text-decoration: underline;
+        max-width: 600px;
+        color: #A239EA;
+    }
+    
+    .objetive {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        font-size: 5vw;
+        color: #A239EA;
     }
   }
