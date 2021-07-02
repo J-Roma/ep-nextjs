@@ -21,8 +21,11 @@ const Description = () => {
                         conocidos y por conocer.
                     </p>
                 </div>
-                <div>
-                    <img src="" alt="whatsapp"/>
+                <div className="col-md-12 text-center text-white mt-3">
+                    <a href="https://wa.link/bphdvo" target="_blank">
+                        <img src="https://i.imgur.com/vk6EXvO.png" alt="whatsapp"/>
+                    </a>
+                    <h4>Escribenos por Whatsapp</h4>
                 </div>
             </div>
         </div>
