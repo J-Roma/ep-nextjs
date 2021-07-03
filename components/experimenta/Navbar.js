@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import styles from '../styles/Home.module.css'
+import styles from '../../styles/Home.module.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; // Import the FontAwesomeIcon component
 import { faSearch } from "@fortawesome/free-solid-svg-icons"; // import the icons you need
 
@@ -17,14 +17,14 @@ const Navbar = () => {
                             <li className="nav-item mx-3">
                                 <Link href="/">
                                     <h1 className={styles.title}>
-                                        <a className="nav-link active" aria-current="page">Inicio</a>
+                                        <a className="nav-link" aria-current="page">Inicio</a>
                                     </h1>
                                 </Link>
                             </li>
                             <li className="nav-item mx-3">
                                 <Link href="/experimenta">
                                     <h1 className={styles.title}>
-                                        <a className="nav-link">Experimenta</a>
+                                        <a className="nav-link active">Experimenta</a>
                                     </h1>
                                 </Link>
                             </li>

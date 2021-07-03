@@ -4,7 +4,7 @@ import { useForm, ValidationError } from '@formspree/react';
 const Form = () => {
     const [state, handleSubmit] = useForm("meqvzper");
     if (state.succeeded) {
-        return <p>Thanks for joining!</p>;
+        return <p>Gracias!, te contactaremos.</p>;
     }
     return (
         <div className="bg">
@@ -97,7 +97,6 @@ const Form = () => {
             <style jsx >
                 {`
                     .bg {
-                        height: 100%;
                     }
 
                     .title {

@@ -1,6 +1,6 @@
 import React from 'react';
 import Swiper from 'react-id-swiper';
-import styles from '../styles/objetivos/Objetive.module.css'
+import styles from '../../styles/objetivos/Objetive.module.css'
 
 const Slides = () => {
     const [screen, setscreen] = React.useState(1)

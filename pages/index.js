@@ -1,11 +1,16 @@
-import styles from '../styles/Home.module.css'
-import Navbar from '../components/Navbar'
+import Navbar from '../components/inicio/Navbar'
+import Entries from '../components/inicio/Entries'
+import Presentation from '../components/inicio/Presentation'
+import Footer from '../components/inicio/Footer'
 
 export default function Home() {
   return (
     <div>
       <Navbar/>
-      <h1 className="fs-1 text-danger text-center ">Hola</h1>
+      <Presentation/>
+      <Entries/>
+      <Footer/>
+
     </div>
   )
 }
